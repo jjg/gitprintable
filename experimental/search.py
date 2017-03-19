@@ -11,7 +11,7 @@ githubUser = raw_input('github username: ')
 githubPassword = raw_input('github password: ')
 searchTerm = raw_input('what to search for: ')
 
-searchUrl = 'https://api.github.com/search/code?q=%s+in:path+extension:stl' % searchTerm
+searchUrl = 'https://api.github.com/search/code?q=%s+in:path+extension:scad' % searchTerm
 
 #searchParams = dict(
 #    q='%s+in:path+extension:stl' % searchTerm 
